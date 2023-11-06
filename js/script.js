@@ -27,10 +27,10 @@ const displayData = (data) => {
         nameElement.textContent = `Name : ${item.name}`;
 
         const playersElement = document.createElement('p');
-        playersElement.textContent = `players : ${item.players}`;
+        playersElement.textContent = `Players : ${item.players}`;
 
         const pitchElement = document.createElement('p');
-        pitchElement.textContent = `pitch : ${item.pitch}`;
+        pitchElement.textContent = `Pitch : ${item.pitch}`;
 
         const imageElement = document.createElement('img');
         imageElement.src = item.image; 
