@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const url = 'https://raw.githubusercontent.com/har1sh94/lab/main/sports.json'; 
+    const url = 'https://raw.githubusercontent.com/KomailK/json-inclass/main/sports-examples/sports.json'; 
 
     fetch(url)
         .then((response) => {
