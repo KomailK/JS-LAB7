@@ -1,10 +1,10 @@
-body {
-    font-family: Arial, sans-serif;
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
 }
 
-#jsonDisplay {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #f9f9f9;
+img {
+    width: 200px; 
+    height: 150px; 
 }
