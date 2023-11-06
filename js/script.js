@@ -1,10 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     const url = 'https://raw.githubusercontent.com/KomailK/json-inclass/main/sports-examples/sports.json';
-
-
-
-
-
     fetch(url)
         .then((response) => {
             if (!response.ok) {
